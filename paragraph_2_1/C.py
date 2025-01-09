@@ -1,3 +1,2 @@
-string = input()
-string2 = string + "\n"
-print(string2*3)
+string = input() + "\n"
+print(string * 3)

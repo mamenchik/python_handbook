@@ -1,6 +1,6 @@
-number = int(input())
-digit1 = number // 1000
-digit2 = number // 100 % 10
-digit3 = number // 10 % 10
-digit4 = number % 10
-print(f"{digit2}{digit1}{digit4}{digit3}")
+abcd = int(input())
+a = abcd // 1000
+b = abcd // 100 % 10
+c = abcd // 10 % 10
+d = abcd % 10
+print(f"{b}{a}{d}{c}")

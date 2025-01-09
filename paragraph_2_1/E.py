@@ -1,4 +1,2 @@
-price = int(input())
-weight = int(input())
-money = int(input())
+price, weight, money = int(input()), int(input()), int(input())
 print(money - weight * price)
